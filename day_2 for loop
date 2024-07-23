@@ -1,0 +1,69 @@
+''for loop--> they  havve two conditions in this
+for i in range(len()):--> we use when we want the index values of the list
+for i in n():--> we use when we want complete list with the values
+in strings we most of the time we use for i in n
+end(" ")--> to get in same line'''
+list=list(map(int,input().split()))
+for i in range(len(list)):
+    print(i)
+    print("-------------")
+    for i in list:
+        print(i)
+        #loop code
+        list=list(map(int,input().split()))
+        s="hello world"
+        for i in s:
+            print(i,end=" ")
+            print()
+            for i in s:
+                print(i)
+                '''using for loop print 1 to 100 num
+                append 1 to 100 num in an empty list
+                sum of all num in a list'''
+            #1.print 1 to 100
+list=list(map(int,input().split()))                
+for i in range(1,101):
+    print(i)
+#append 1 to 100 num in an empty list
+list=[]
+    for i in range(1,101):
+        list.append(i)
+        #sum of all num in list
+    for i in range(1 to 101):
+    sum+=i
+    print(i)
+
+
+    '''given with space sep integer list find num even ele & odd
+num=list(map(int,input().split(" ")))
+even=0
+odd=0
+for i in range(len(num)):
+    if(num[i]%2==0):
+        even+=1
+    else:
+        odd+=1
+print(even)       
+print(odd)'''
+
+''' # given spce sep integer list find the avg of elem prst in even index
+'''my_list=list(map(int,input().split(" ")))
+sum=0
+count=0
+for i in range(len(my_list)):
+    if(i%2==0):
+        sum+=my_list[i]
+        count+=1
+print(sum/count)'''
+
+
+#n=int(input())
+#i=1
+#for i in range(n):
+   # i+=1
+   # print(i,end=" ")
+list=[]
+n=int(input())
+for i in range(1,n+1):
+    list.append(i)
+    print(list)'''
