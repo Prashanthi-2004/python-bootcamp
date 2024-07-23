@@ -1,0 +1,13 @@
+#leap year
+#num should divisble by 400  or divisble by 4 but not in hundred
+'''year=int(input())
+if(year%400==0):
+    print("leap year")
+else:
+    print("not leap year")'''
+#leap year in given range
+a=int(input("enter 1st number: "))
+b=int(input("enter 2nd number: "))
+for i in range(2000,2024):
+    if i%400==0 or i%100!=0:
+        print(i)

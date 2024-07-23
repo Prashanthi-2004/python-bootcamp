@@ -1,0 +1,11 @@
+#lcm of 2 numbers
+#lcm*gcd=a*b
+#lcm=a*b/gcd
+a=int(input("enter 1st number: "))
+b=int(input("enter 2nd number: "))
+lcm=0
+gcd=0
+while a!=0:
+    a,b=b,a%b
+    lcm==a*b//gcd
+print("lcm of 2 numbers is: ",lcm)
